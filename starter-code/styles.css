@@ -1,0 +1,308 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.clearfix{
+  clear:both;
+}
+
+body{
+  font-family: font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/*nav*/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height:30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav .top-left{
+  padding-left: 20px;
+
+}
+
+nav .heart{
+  padding-right: 15px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: -21px 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*header*/
+
+header{
+  height: 445px;
+  background: url('images/city-scape.svg') no-repeat;
+  background-size: cover;
+
+}
+
+.bar{
+  display: flex;
+  padding: 20px;
+  background: #225d7e;
+  color: white;
+}
+
+.logo{
+  width: 125px;
+}
+.logo img{
+  width: 125px;
+}
+
+.buscar{
+  flex: 1;
+  padding: 0 20px;
+}
+.buscar form{
+  display: flex;
+}
+.buscar input{
+  height: 40px;
+  flex:1;
+  padding: 5px 5px 5px 15px;
+}
+
+.buscar input, .buscar button{
+  background: #275484;
+}
+
+.user{
+  width: auto;
+  color: rgba(255,255,255,0.8);
+}
+
+.user img{
+  width: 45px;
+
+}
+
+.user li{
+  list-style: none;
+  display: inline;
+  padding-right: 5px;
+}
+
+.sign{
+  float:left;
+  padding: 15px 0;
+}
+
+
+
+.user a{
+  color:rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.city{
+  width: 45%;
+  padding: 0 45% 0 10%;
+}
+
+.city h1{
+  color:#FFF;
+  font-size: 48px;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.city p{
+  font-size: 18px;
+  color: white;
+}
+
+.city a{
+  color: white;
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  display: inline-block;
+
+}
+
+#city img{
+  float:right;
+}
+
+header #bar{
+  background-color: rgb(31, 82, 111);
+  height:60px;
+}
+
+/*section1*/
+
+#section1{
+  background: #273547;
+  color: white;
+  padding: 120px 0;
+}
+
+
+#collaboration img{
+  width: 45%;
+  padding-left: 10%;
+  float:left;
+
+}
+
+#collaboration .text{
+  width: 35%;
+  padding-left: 5%;
+  float:left;
+
+
+}
+
+#section1 h1{
+  color:#FFF;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+#collaboration li{
+  line-height: 2.5em;
+}
+#collaboration ul {
+   list-style: none;
+}
+
+#collaboration a{
+  color: white;
+  text-decoration: none;
+}
+
+#collaboration .orgs{
+  background: rgb(203, 56, 55);
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 10px 30px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  display: inline-block
+}
+
+/*section2*/
+
+#section2{
+  background: url('images/forklift.svg') no-repeat;
+  background-size: cover;
+  height: 275px;
+  position: relative;
+  padding: 120px 0;
+
+}
+
+#text2{
+  width: 30%;
+  color: white;
+  padding-left: 10%;
+  position: absolute;
+
+}
+
+
+#text2 h1{
+  color:#FFF;
+  font-size: 34px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+#text2 p{
+  font-size:18px;
+  font-weight: normal;
+}
+
+#text2 a{
+  background-color: rgb(49, 68, 88);
+  color:#FFF;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  display: inline-block
+
+}
+/*section3*/
+
+#section3{
+  text-align: center;
+  padding: 50px 0;
+}
+
+#section3 h1{
+  color: rgb(83, 89, 98);
+  font-size: 38px;
+  font-weight: normal;
+}
+
+ #section3 h3{
+   font-size: 26px;
+  color: rgb(83, 88, 98);
+  padding: 15px 0;
+  font-weight: normal;
+}
+
+#section3 p{
+  color: rgb(135, 145, 156);
+}
+
+#logotext{
+  margin:0 auto;
+  padding-left:70px;
+}
+
+#foto1{
+  float: left;
+  width:20%;
+  margin-left: 10%;
+}
+
+#foto2{
+  float: left;
+  width:20%;
+  margin: 0 10%;
+}
+
+#foto3{
+  float: left;
+  width:20%;
+  margin-right: :10%;
+}
+
+#logo{
+  margin: 0 auto;
+  padding:30px 0;
+}
+
+#logo img{
+  padding: 15px 0;
+}
+
+#logotext p{
+  padding: 15px 0;
+}
